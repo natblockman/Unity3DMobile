@@ -60,6 +60,7 @@ public class Movement : MonoBehaviour
             }
             else
             {
+                
                 ac.Idle();
             }
         }

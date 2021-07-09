@@ -18,10 +18,12 @@ public class AnimatorController : MonoBehaviour
     public void Idle()
     {
         anim.SetFloat("Speed",0f);
+        
     }
     public void Walk()
     {
         anim.SetFloat("Speed", 0.5f);
+        anim.ResetTrigger("Jump");
     }
     public void Run()
     {
